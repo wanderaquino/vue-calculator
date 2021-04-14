@@ -39,7 +39,7 @@ export default {
     components: {Button, Display},
     methods: {
         clearMemory() {
-            //Fazer o objeto retornar ao estado originao: target <- source
+            //Fazer o objeto retornar ao estado original: target <- source
             Object.assign(this.$data, this.$options.data());
         },
 
