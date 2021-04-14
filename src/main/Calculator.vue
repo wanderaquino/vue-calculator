@@ -12,7 +12,7 @@
         <Button @onButtonClick="addDigit" label="6"/>
         <Button @onButtonClick="setOperation" label="-" operation/>
         <Button @onButtonClick="addDigit" label="1"/>
-        <Button @onButtonClick="addDigit" label="3"/>
+        <Button @onButtonClick="addDigit" label="2"/>
         <Button @onButtonClick="addDigit" label="3"/>
         <Button @onButtonClick="setOperation" label="+" operation/>
         <Button @onButtonClick="addDigit" label="0" double/>
